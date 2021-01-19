@@ -8,71 +8,176 @@
         "_id": "6000950890fca4f9f1d28605",
         "index": 0,
         "name": "Avaya IP Office",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": false,
-          "hold_call": true,
-          "unnotional": false,
-          "notional": false,
-          "dynamic_routing": true
-        }
+        "func": [
+          {
+            "name": "Получение информации о звонках",
+            "value": false
+          },
+          {
+            "name": "Создать исходящий звонок",
+            "value": true
+          },
+          {
+            "name": "Положить трубку",
+            "value": false
+          },
+          {
+            "name": "Постановка на удержание",
+            "value": true
+          },
+          {
+            "name": "Перевод безусловный",
+            "value": true
+          },
+          {
+            "name": "Перевод условный",
+            "value": true
+          },
+          {
+            "name": "Динамическая маршрутизация командой перевода",
+            "value": true
+          }
+        ]
       },
       {
         "_id": "600095080fb72c226b2caa46",
         "index": 1,
         "name": "Cisco UCM",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": false,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": false
-        }
+        "func": [
+          {
+            "name": "Получение информации о звонках",
+            "value": false
+          },
+          {
+            "name": "Создать исходящий звонок",
+            "value": false
+          },
+          {
+            "name": "Положить трубку",
+            "value": false
+          },
+          {
+            "name": "Постановка на удержание",
+            "value": false
+          },
+          {
+            "name": "Перевод безусловный",
+            "value": true
+          },
+          {
+            "name": "Перевод условный",
+            "value": false
+          },
+          {
+            "name": "Динамическая маршрутизация командой перевода",
+            "value": true
+          }
+        ]
       },
       {
         "_id": "60009508440889dc41089200",
         "index": 2,
         "name": "LG iPecs",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": true,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": false
-        }
+        "func": [
+          {
+            "name": "Получение информации о звонках",
+            "value": true
+          },
+          {
+            "name": "Создать исходящий звонок",
+            "value": false
+          },
+          {
+            "name": "Положить трубку",
+            "value": true
+          },
+          {
+            "name": "Постановка на удержание",
+            "value": true
+          },
+          {
+            "name": "Перевод безусловный",
+            "value": true
+          },
+          {
+            "name": "Перевод условный",
+            "value": true
+          },
+          {
+            "name": "Динамическая маршрутизация командой перевода",
+            "value": true
+          }
+        ]
       },
       {
         "_id": "600095083c1ad4f5e756221a",
         "index": 3,
         "name": "Panasonic KX-TDA/TDE, КX-NS",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": false,
-          "notional": true,
-          "dynamic_routing": true
-        }
+        "func": [
+          {
+            "name": "Получение информации о звонках",
+            "value": true
+          },
+          {
+            "name": "Создать исходящий звонок",
+            "value": false
+          },
+          {
+            "name": "Положить трубку",
+            "value": true
+          },
+          {
+            "name": "Постановка на удержание",
+            "value": true
+          },
+          {
+            "name": "Перевод безусловный",
+            "value": true
+          },
+          {
+            "name": "Перевод условный",
+            "value": false
+          },
+          {
+            "name": "Динамическая маршрутизация командой перевода",
+            "value": false
+          }
+        ]
       },
       {
         "_id": "6000950896e69d65d212c362",
         "index": 4,
         "name": "Samsung OfficeServ",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": true
-        }
+        "func": [
+          {
+            "name": "Получение информации о звонках",
+            "value": true
+          },
+          {
+            "name": "Создать исходящий звонок",
+            "value": false
+          },
+          {
+            "name": "Положить трубку",
+            "value": true
+          },
+          {
+            "name": "Постановка на удержание",
+            "value": true
+          },
+          {
+            "name": "Перевод безусловный",
+            "value": true
+          },
+          {
+            "name": "Перевод условный",
+            "value": false
+          },
+          {
+            "name": "Динамическая маршрутизация командой перевода",
+            "value": false
+          }
+        ]
       }
     ]
   },
@@ -85,71 +190,176 @@
           "_id": "6000956ca65a0e6c593c0263",
           "index": 0,
           "name": "Ascozia",
-          "func": {
-            "info_call": false,
-            "create_outgoing_call": false,
-            "put_call": true,
-            "hold_call": true,
-            "unnotional": false,
-            "notional": true,
-            "dynamic_routing": false
-          }
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
         },
         {
           "_id": "6000956ca74ee3f856025ad5",
           "index": 1,
           "name": "Asteriks выше версии 1.6",
-          "func": {
-            "info_call": false,
-            "create_outgoing_call": false,
-            "put_call": true,
-            "hold_call": true,
-            "unnotional": false,
-            "notional": false,
-            "dynamic_routing": true
-          }
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
         },
         {
           "_id": "6000956ca4afef96b454da13",
           "index": 2,
           "name": "Elastix",
-          "func": {
-            "info_call": false,
-            "create_outgoing_call": true,
-            "put_call": false,
-            "hold_call": true,
-            "unnotional": true,
-            "notional": true,
-            "dynamic_routing": true
-          }
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
         },
         {
           "_id": "6000956c8182ea7ee43f2689",
           "index": 3,
           "name": "FreePBX",
-          "func": {
-            "info_call": true,
-            "create_outgoing_call": true,
-            "put_call": true,
-            "hold_call": true,
-            "unnotional": true,
-            "notional": true,
-            "dynamic_routing": false
-          }
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
         },
         {
           "_id": "6000956cc46503b38300ebc2",
           "index": 4,
           "name": "Oktell",
-          "func": {
-            "info_call": true,
-            "create_outgoing_call": false,
-            "put_call": true,
-            "hold_call": false,
-            "unnotional": true,
-            "notional": false,
-            "dynamic_routing": true
-          }
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
         }
       ]
   },
@@ -162,113 +372,281 @@
         "_id": "6000961dba807638297d0c2b",
         "index": 0,
         "name": "BeeLine",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": false,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": true
-        }
+        "func": [
+      {
+        "name": "Получение информации о звонках",
+        "value": true
+      },
+      {
+        "name": "Создать исходящий звонок",
+        "value": false
+      },
+      {
+        "name": "Положить трубку",
+        "value": true
+      },
+      {
+        "name": "Постановка на удержание",
+        "value": true
+      },
+      {
+        "name": "Перевод безусловный",
+        "value": true
+      },
+      {
+        "name": "Перевод условный",
+        "value": false
+      },
+      {
+        "name": "Динамическая маршрутизация командой перевода",
+        "value": false
+      }
+    ]
       },
       {
         "_id": "6000961d66549f1c139013fc",
         "index": 1,
         "name": "Mango",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": false,
-          "put_call": false,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": true
-        }
+        "func": [
+      {
+        "name": "Получение информации о звонках",
+        "value": true
+      },
+      {
+        "name": "Создать исходящий звонок",
+        "value": false
+      },
+      {
+        "name": "Положить трубку",
+        "value": false
+      },
+      {
+        "name": "Постановка на удержание",
+        "value": true
+      },
+      {
+        "name": "Перевод безусловный",
+        "value": false
+      },
+      {
+        "name": "Перевод условный",
+        "value": true
+      },
+      {
+        "name": "Динамическая маршрутизация командой перевода",
+        "value": false
+      }
+    ]
       },
       {
         "_id": "6000961d0daeb807f8257f45",
         "index": 2,
         "name": "MTS",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": false,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": false
-        }
+        "func": [
+      {
+        "name": "Получение информации о звонках",
+        "value": false
+      },
+      {
+        "name": "Создать исходящий звонок",
+        "value": true
+      },
+      {
+        "name": "Положить трубку",
+        "value": false
+      },
+      {
+        "name": "Постановка на удержание",
+        "value": false
+      },
+      {
+        "name": "Перевод безусловный",
+        "value": true
+      },
+      {
+        "name": "Перевод условный",
+        "value": false
+      },
+      {
+        "name": "Динамическая маршрутизация командой перевода",
+        "value": false
+      }
+    ]
       },
       {
         "_id": "6000961d54935768052874ad",
         "index": 3,
         "name": "Rostelecom",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": false,
-          "hold_call": false,
-          "unnotional": false,
-          "notional": false,
-          "dynamic_routing": true
-        }
+        "func": [
+      {
+        "name": "Получение информации о звонках",
+        "value": false
+      },
+      {
+        "name": "Создать исходящий звонок",
+        "value": true
+      },
+      {
+        "name": "Положить трубку",
+        "value": false
+      },
+      {
+        "name": "Постановка на удержание",
+        "value": true
+      },
+      {
+        "name": "Перевод безусловный",
+        "value": false
+      },
+      {
+        "name": "Перевод условный",
+        "value": false
+      },
+      {
+        "name": "Динамическая маршрутизация командой перевода",
+        "value": false
+      }
+    ]
       },
       {
         "_id": "6000961d3779778e2ed85f78",
         "index": 4,
         "name": "Telfin",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": false,
-          "put_call": false,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": true
-        }
+        "func": [
+      {
+        "name": "Получение информации о звонках",
+        "value": true
+      },
+      {
+        "name": "Создать исходящий звонок",
+        "value": false
+      },
+      {
+        "name": "Положить трубку",
+        "value": false
+      },
+      {
+        "name": "Постановка на удержание",
+        "value": false
+      },
+      {
+        "name": "Перевод безусловный",
+        "value": false
+      },
+      {
+        "name": "Перевод условный",
+        "value": true
+      },
+      {
+        "name": "Динамическая маршрутизация командой перевода",
+        "value": true
+      }
+    ]
       },
       {
         "_id": "6000961d724d3c1cb80435ed",
         "index": 5,
         "name": "UIS",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": true,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": false
-        }
+        "func": [
+      {
+        "name": "Получение информации о звонках",
+        "value": false
+      },
+      {
+        "name": "Создать исходящий звонок",
+        "value": false
+      },
+      {
+        "name": "Положить трубку",
+        "value": true
+      },
+      {
+        "name": "Постановка на удержание",
+        "value": true
+      },
+      {
+        "name": "Перевод безусловный",
+        "value": false
+      },
+      {
+        "name": "Перевод условный",
+        "value": true
+      },
+      {
+        "name": "Динамическая маршрутизация командой перевода",
+        "value": true
+      }
+    ]
       },
       {
         "_id": "6000961d043e7a7527adf389",
         "index": 6,
         "name": "Yandex",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": true,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": false
-        }
+        "func": [
+      {
+        "name": "Получение информации о звонках",
+        "value": true
+      },
+      {
+        "name": "Создать исходящий звонок",
+        "value": false
+      },
+      {
+        "name": "Положить трубку",
+        "value": false
+      },
+      {
+        "name": "Постановка на удержание",
+        "value": false
+      },
+      {
+        "name": "Перевод безусловный",
+        "value": false
+      },
+      {
+        "name": "Перевод условный",
+        "value": true
+      },
+      {
+        "name": "Динамическая маршрутизация командой перевода",
+        "value": true
+      }
+    ]
       },
       {
         "_id": "6000961d8ecff5b9e348ca80",
         "index": 7,
         "name": "Zadarma",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": false,
-          "put_call": false,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": false
-        }
+        "func": [
+      {
+        "name": "Получение информации о звонках",
+        "value": true
+      },
+      {
+        "name": "Создать исходящий звонок",
+        "value": true
+      },
+      {
+        "name": "Положить трубку",
+        "value": false
+      },
+      {
+        "name": "Постановка на удержание",
+        "value": false
+      },
+      {
+        "name": "Перевод безусловный",
+        "value": true
+      },
+      {
+        "name": "Перевод условный",
+        "value": true
+      },
+      {
+        "name": "Динамическая маршрутизация командой перевода",
+        "value": true
+      }
+    ]
       }
     ]
   },
@@ -277,678 +655,1686 @@
     "index": 3,
     "name": "iToolabs (Облачная АТС)",
     "list_ate": [
-      {
-        "_id": "600098b389ce8c28d89d7c5e",
-        "index": 0,
-        "name": "Altegro",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": false,
-          "hold_call": true,
-          "unnotional": false,
-          "notional": false,
-          "dynamic_routing": true
+        {
+          "_id": "60070d6a3e567ff72f70fd7a",
+          "index": 0,
+          "name": "Altegro",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6afd9aff31d4b21d4c",
+          "index": 1,
+          "name": "Comiten",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6ab43d56bc85a286b2",
+          "index": 2,
+          "name": "COMLINK",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6aa74f6d8bd6911ce5",
+          "index": 3,
+          "name": "DreamNet",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6af4b2dec87ce68f9f",
+          "index": 4,
+          "name": "Easytel",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a8569216bb7aded1c",
+          "index": 5,
+          "name": "EVO",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a6465feb4e43e906d",
+          "index": 6,
+          "name": "Finenumbers",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a3b727193532069cb",
+          "index": 7,
+          "name": "OpenSpeak",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a2eb62eb8ad87b59a",
+          "index": 8,
+          "name": "Power Telecom",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a24b5f034f3ed327a",
+          "index": 9,
+          "name": "RiNet",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a62f050f23cdbb90b",
+          "index": 10,
+          "name": "SipVip",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a08e77f4d509e3646",
+          "index": 11,
+          "name": "Smartcard",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6ae02f6db676b17f06",
+          "index": 12,
+          "name": "Spacetel",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a92ff5fe2b2e98d28",
+          "index": 13,
+          "name": "Tashir Telecom",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a0e37b09e7e802082",
+          "index": 14,
+          "name": "Tekmi",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a235a1342e7274291",
+          "index": 15,
+          "name": "TelefonN",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6afe11d6356d399ddb",
+          "index": 16,
+          "name": "Telepro",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6af2a8af6ddc310616",
+          "index": 17,
+          "name": "Virgin Connect",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a00c08366ba4b7bd3",
+          "index": 18,
+          "name": "Авантел",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6ab7ca86c962ebc572",
+          "index": 19,
+          "name": "АльянсТелеком",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a8bbce8dff53b277e",
+          "index": 20,
+          "name": "ВАМтел",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6ae8f95caf9f2059c3",
+          "index": 21,
+          "name": "ВекторТел",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a95983f86b8589fd0",
+          "index": 22,
+          "name": "Вест колл (Москва)",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a6add3c8a84a3b841",
+          "index": 23,
+          "name": "ВестКолл СПб",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a04ad53f9471272cb",
+          "index": 24,
+          "name": "Гарс Телеком",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6aea08b0191146638c",
+          "index": 25,
+          "name": "Гравител",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a23cfaa534f277f6f",
+          "index": 26,
+          "name": "Деловая Сеть – Иркутск",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a23b496cb61fb9382",
+          "index": 27,
+          "name": "Интеграл",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a4ab06890cec38540",
+          "index": 28,
+          "name": "Инт-Информ",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6af2f3547e7a205c9c",
+          "index": 29,
+          "name": "Кловертел",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a67c94827d821251d",
+          "index": 30,
+          "name": "Корпорация VoIP",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a2f9904d1b0e30ca2",
+          "index": 31,
+          "name": "Мегафон",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6ac0a291d5b0462c7b",
+          "index": 32,
+          "name": "Наука-связь",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a6519bdb381da0fda",
+          "index": 33,
+          "name": "Новые Телефонные Системы",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a3a24bbac9ab270ac",
+          "index": 34,
+          "name": "Рукомтех",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a1d507eab504345cd",
+          "index": 35,
+          "name": "Русские системы",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6aaee29d6c0507ee16",
+          "index": 36,
+          "name": "Связь-Холдинг",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a7ec378ba5b3f9c44",
+          "index": 37,
+          "name": "Сибирские Сети",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a69bdc6560b9c02f6",
+          "index": 38,
+          "name": "Твинго телеком",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a71791b705a6ad88d",
+          "index": 39,
+          "name": "Телетай",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a4cccdcc737feab72",
+          "index": 40,
+          "name": "Технологии для жизни",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a973ff6b6f7329038",
+          "index": 41,
+          "name": "ТТК",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a9f2076fabed7deac",
+          "index": 42,
+          "name": "Ультрамарин",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": false
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a505502f1281321e3",
+          "index": 43,
+          "name": "Щелково.net",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a781c23d2be5c0d64",
+          "index": 44,
+          "name": "Экомобайл",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a48df368416e42380",
+          "index": 45,
+          "name": "Эконотел",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": false
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": false
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": true
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a506a613ccdc985a1",
+          "index": 46,
+          "name": "Энфорта",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": false
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": true
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": true
+            }
+          ]
+        },
+        {
+          "_id": "60070d6a3e5dc1957aa66bb2",
+          "index": 47,
+          "name": "Юг-Телеком",
+          "func": [
+            {
+              "name": "Получение информации о звонках",
+              "value": true
+            },
+            {
+              "name": "Создать исходящий звонок",
+              "value": true
+            },
+            {
+              "name": "Положить трубку",
+              "value": false
+            },
+            {
+              "name": "Постановка на удержание",
+              "value": true
+            },
+            {
+              "name": "Перевод безусловный",
+              "value": true
+            },
+            {
+              "name": "Перевод условный",
+              "value": false
+            },
+            {
+              "name": "Динамическая маршрутизация командой перевода",
+              "value": false
+            }
+          ]
         }
-      },
-      {
-        "_id": "600098b30accd8e1d276b44a",
-        "index": 1,
-        "name": "Comiten",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": true,
-          "put_call": false,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b32035cd2f60cf6af0",
-        "index": 2,
-        "name": "COMLINK",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": false,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b36f000598013c3cf4",
-        "index": 3,
-        "name": "DreamNet",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b395d6ef82e87c34fa",
-        "index": 4,
-        "name": "Easytel",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": false,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3ef2c7886a1372e1d",
-        "index": 5,
-        "name": "EVO",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": true,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b36e01b5fb6c988788",
-        "index": 6,
-        "name": "Finenumbers",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": false,
-          "put_call": false,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b314d932d4c4cea83c",
-        "index": 7,
-        "name": "OpenSpeak",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": false,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b39c5a08f98ba72366",
-        "index": 8,
-        "name": "Power Telecom",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": false,
-          "put_call": true,
-          "hold_call": false,
-          "unnotional": false,
-          "notional": false,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b34a7b2b55cb1a6001",
-        "index": 9,
-        "name": "RiNet",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b3d8ee90a2f84a97b9",
-        "index": 10,
-        "name": "SipVip",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": false,
-          "put_call": true,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b39f856338fc9e3d59",
-        "index": 11,
-        "name": "Smartcard",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": true,
-          "put_call": false,
-          "hold_call": true,
-          "unnotional": false,
-          "notional": false,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3dd47e4d13ff32599",
-        "index": 12,
-        "name": "Spacetel",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": true,
-          "put_call": true,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3a3dc75abd55c287b",
-        "index": 13,
-        "name": "Tashir Telecom",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": false,
-          "put_call": false,
-          "hold_call": true,
-          "unnotional": false,
-          "notional": true,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b389e4dd61652e6cc4",
-        "index": 14,
-        "name": "Tekmi",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": true,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3fb81310e51f5ba9b",
-        "index": 15,
-        "name": "TelefonN",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": false,
-          "notional": true,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b3d8cb6391d61debd5",
-        "index": 16,
-        "name": "Telepro",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b39443a8c7daa6db92",
-        "index": 17,
-        "name": "Virgin Connect",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": true,
-          "put_call": false,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b39ef0fa14329a9a39",
-        "index": 18,
-        "name": "Авантел",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": false,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3cd75f3654a159cfc",
-        "index": 19,
-        "name": "АльянсТелеком",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": true,
-          "hold_call": false,
-          "unnotional": false,
-          "notional": false,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b37f04aa3d092c0d8d",
-        "index": 20,
-        "name": "ВАМтел",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3ae2f3397b527ab9f",
-        "index": 21,
-        "name": "ВекторТел",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": true,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3b3734f1ad18578fb",
-        "index": 22,
-        "name": "Вест колл (Москва)",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": false,
-          "put_call": true,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b356f6a378e57c8d3b",
-        "index": 23,
-        "name": "ВестКолл СПб",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": false,
-          "hold_call": true,
-          "unnotional": false,
-          "notional": true,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3d928bc8008507ba9",
-        "index": 24,
-        "name": "Гарс Телеком",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": false,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3aa572d7855e8a6bd",
-        "index": 25,
-        "name": "Гравител",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": false,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b35bcf6b7e8bd68d37",
-        "index": 26,
-        "name": "Деловая Сеть – Иркутск",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": true,
-          "put_call": false,
-          "hold_call": false,
-          "unnotional": false,
-          "notional": false,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3a6264b0ac6992b18",
-        "index": 27,
-        "name": "Интеграл",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": false,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3ffcc7595b24ce5e3",
-        "index": 28,
-        "name": "Инт-Информ",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": false,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b32ea5d350589a2a2d",
-        "index": 29,
-        "name": "Кловертел",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b330b8d80f7beaf254",
-        "index": 30,
-        "name": "Корпорация VoIP",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": false,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b3846b8fe0c12e9f71",
-        "index": 31,
-        "name": "Мегафон",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": true,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b3462b777ed936ddef",
-        "index": 32,
-        "name": "Наука-связь",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": false,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3e437b3bc489fb17a",
-        "index": 33,
-        "name": "Новые Телефонные Системы",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": false,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3b5b75d78205531c3",
-        "index": 34,
-        "name": "Рукомтех",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": true,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b35eee4479596c393d",
-        "index": 35,
-        "name": "Русские системы",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": false,
-          "notional": false,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b33958c36dd8529da2",
-        "index": 36,
-        "name": "Связь-Холдинг",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": false,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b38e3279e809632ad4",
-        "index": 37,
-        "name": "Сибирские Сети",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": false,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b31b1e184e6c7d9268",
-        "index": 38,
-        "name": "Твинго телеком",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": true,
-          "hold_call": false,
-          "unnotional": false,
-          "notional": false,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b3224e090803dc8c5d",
-        "index": 39,
-        "name": "Телетай",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": true,
-          "hold_call": false,
-          "unnotional": false,
-          "notional": true,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b33151a9eee1d79c21",
-        "index": 40,
-        "name": "Технологии для жизни",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": false,
-          "hold_call": true,
-          "unnotional": false,
-          "notional": false,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3c722e764ab427952",
-        "index": 41,
-        "name": "ТТК",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": true,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b38e349d6343e8f8e6",
-        "index": 42,
-        "name": "Ультрамарин",
-        "func": {
-          "info_call": true,
-          "create_outgoing_call": false,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3213e3f2339b9a585",
-        "index": 43,
-        "name": "Щелково.net",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": false,
-          "notional": false,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b3365907f41fe35554",
-        "index": 44,
-        "name": "Экомобайл",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": true,
-          "hold_call": true,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3e0755ce47fa318a5",
-        "index": 45,
-        "name": "Эконотел",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": true,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": false
-        }
-      },
-      {
-        "_id": "600098b3508f86ae27b5b901",
-        "index": 46,
-        "name": "Энфорта",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": true,
-          "put_call": false,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": true,
-          "dynamic_routing": true
-        }
-      },
-      {
-        "_id": "600098b349fb3325b467db94",
-        "index": 47,
-        "name": "Юг-Телеком",
-        "func": {
-          "info_call": false,
-          "create_outgoing_call": false,
-          "put_call": false,
-          "hold_call": false,
-          "unnotional": true,
-          "notional": false,
-          "dynamic_routing": true
-        }
-      }
-    ]
+      ]
   }
 ]
